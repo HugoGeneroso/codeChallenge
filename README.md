@@ -6,9 +6,9 @@
   - Instalar o laravel globalmente no console com o comando ``` $ composer global require laravel/installer ```
 
 # Instalando e executando o projeto
-Abra o painel de controle do Xampp e ligue o Mysql e o Apache.
-Crie um banco de dados vazio com o nome 'codechallengecheckout'
-Acessar a pasta do projeto clonado e executar os comandos
+ - Abra o painel de controle do Xampp e ligue o Mysql e o Apache.
+ - Crie um banco de dados vazio com o nome 'codechallengecheckout'.
+ - Acessar a pasta do projeto clonado e executar os comandos
 ```sh
 $ composer update
 $ php artisan migrate --seed
