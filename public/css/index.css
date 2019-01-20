@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(rgba(216, 216, 216, 0.5),rgba(20, 255, 168, 0.59)),
+    url(/img/bg.jpg);
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.wrap hr{ border: 0;
+height: 1px;
+background: #e40d0d;
+position: absolute;
+top: -5px;
+width: 100%;
+}
+
+body.modal-open > :not(.modal) {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.modal-backdrop.show{
+  opacity:0.1 !important;
+}
+
+.modal-content{
+  border-radius: 0px !important;
+  background:#FAFAFA !important;
+}
+
+.card-register, .card-login{
+  background:rgba(0,0,0,.03);
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.validation-error-container{
+  background:#E57373;
+}
