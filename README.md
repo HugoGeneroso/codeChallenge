@@ -7,6 +7,7 @@
 
 # Instalando e executando o projeto
 Abra o painel de controle do Xampp e ligue o Mysql e o Apache.
+Crie um banco de dados vazio com o nome 'codechallengecheckout'
 Acessar a pasta do projeto clonado e executar os comandos
 ```sh
 $ composer update
@@ -14,5 +15,6 @@ $ php artisan migrate --seed
 $ php artisan
 ```
 O projeto já deverá estar sendo executado no endereço http://localhost:8000/
+Qualquer problema com o ambiente que estiver executando, por favor verifique se as variáveis dentro do arquivo .env estão de acordo com as suas configurações locais
 
 **Obrigado ao pessoal da EPICS pela oportunidade :)**
